@@ -8,16 +8,16 @@
   },
   "repository": {
     "type": "git",
-    "url": "git://github.com/kurounin/ep_auth_session.git"
+    "url": "git@github.com:macanhhuy/ep_auth_session.git"
   },
   "author": {
     "name": "Kurounin"
   },
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/Kurounin/ep_auth_session/issues"
+    "url": "https://github.com/macanhhuy/ep_auth_session/issues"
   },
-  "homepage": "https://github.com/Kurounin/ep_auth_session",
+  "homepage": "https://github.com/macanhhuy/ep_auth_session",
   "keywords": [
     "etherpad",
     "authentication",
