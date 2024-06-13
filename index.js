@@ -13,6 +13,7 @@ exports.registerRoute = (hookName, args) => {
 
     if (req.query.sessionID) {
       r += 'document.cookie = "sessionID=' + encodeURIComponent(req.query.sessionID) + '; path=/; SameSite=None; Secure;";' + "\n";
+      r += 'localStorage.setItem("padSessionID", '+ encodeURIComponent(req.query.sessionID) + ');' + "\n";
     }
 
     if (req.query.padName) {
